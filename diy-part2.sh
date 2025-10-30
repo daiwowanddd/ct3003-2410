@@ -18,3 +18,5 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+git clone -b main --single-branch --filter=blob:none https://github.com/sirpdboy/luci-app-adguardhome package/luci-app-adguardhome
