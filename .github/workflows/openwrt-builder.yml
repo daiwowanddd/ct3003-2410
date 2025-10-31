@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: nx30p OpenWrt Builder
+name: OpenWrt Builder
 
 on:
   repository_dispatch:
