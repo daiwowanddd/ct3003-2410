@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Immoralwrt24.10 ubootmod Builder
+name: Immoralwrt24.10 6.6
 
 on:
   repository_dispatch:
