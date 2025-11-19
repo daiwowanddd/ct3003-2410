@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.6.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.6.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -20,3 +20,5 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
 git clone -b main --single-branch --filter=blob:none https://github.com/sirpdboy/luci-app-adguardhome package/luci-app-adguardhome
+git clone -b main --single-branch --filter=blob:none https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
+git clone -b main --single-branch --filter=blob:none https://github.com/nikkinikki-org/OpenWrt-nikki package/OpenWrt-nikki
