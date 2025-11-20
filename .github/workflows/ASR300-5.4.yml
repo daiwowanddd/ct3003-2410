@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: 5.4 Builder
+name: ASR3000 5.4 Builder
 
 on:
   repository_dispatch:
