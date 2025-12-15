@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Immoralwrt24.10 6.6
+name: Immoralwrt24.10 6.6 test
 
 on:
   repository_dispatch:
