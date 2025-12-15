@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Immoralwrt24.10 6.6
+name: ct3003 6.6 编译
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10
   REPO_BRANCH: openwrt-24.10-6.6
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/6.6.config
+  CONFIG_FILE: config/ct3003.config
   DIY_P1_SH: sh/diy-part1.sh
   DIY_P2_SH: sh/diy-part2.sh
   UPLOAD_BIN_DIR: false
